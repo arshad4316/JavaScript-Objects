@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+    const student = {
+        name: 'arsh',
+        age: 27,
+        location: 'banglore',
+    }
+
+    const student1 ={
+        gender: 'male',
+
+    }
+
+    student.__proto__ = student1;
+
+   for ( let key in student) {
+        let value;
+        value = student[key];
+
+        console.log( key + ": " + value);
+
+
+    }
+</script>
+<body>
+    <p1>
+        for in loop
+    </p1>
+</body>
+</html>

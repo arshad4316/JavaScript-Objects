@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+     const student = {
+         name: 'arsh',
+         age: 27,
+         location: 'banglore',
+     }
+
+     const person ={
+        gender: 'male',
+        hobbies:['cricket', 'cooking', 'movies',],
+        marks: {
+            maths: 95,
+            science: 92,
+        },
+        id: 227,
+
+    
+
+    }
+
+    student.__proto__ = person;
+
+     let count =0;
+
+     for ( let key in student) {
+         ++count;
+
+        //  console.log(count);
+     }
+
+     console.log(count);
+</script>
+<body>
+    <p1>
+        counting numbers of keys/properties of objects
+    </p1>
+</body>
+</html>

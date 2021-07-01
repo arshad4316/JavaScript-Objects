@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+    // numeric sorting
+
+// define array
+var priceList = [1000, 50, 2, 2,2,7, 14];
+
+// sort() using function expression
+// ascending order
+// priceList.sort(function (a, b) {
+//   return a - b;
+// });
+
+// Output: Ascending - 2,7,14,50,1000
+// console.log("Ascending - " + priceList);
+
+// sort() using arrow function expression
+// descending order
+priceList.sort((a, b) => a- b );
+console.log(priceList)
+
+// Output: Descending - 1000,50,14,7,2
+// console.log("Descending - " + priceList);
+</script>
+<body>
+    <p3>
+        p3
+    </p3>
+</body>
+</html>

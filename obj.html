@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+    const student = {
+        name: 'arsh',
+        age: 27,
+        hobbies: [ 'cricket', 'music', 'movies'],
+        greet: function() {
+            console.log(' hii everyone');
+        },
+
+        score: { 
+            maths: 95,
+            science: 92,
+            english: 90,
+        }
+
+    };
+
+    delete student.age;
+    console.log(student)
+
+    console.log( typeof student);
+    console.log(student.name);
+    console.log(student.hobbies);
+    console.log(student.greet);
+    console.log(student.score);
+</script>
+<body>
+    <p1>
+        object
+    </p1>
+</body>
+</html>
